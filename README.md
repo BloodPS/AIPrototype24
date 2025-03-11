@@ -118,6 +118,4 @@ model = keras.Sequential([
 model.compile(optimizer='adam', loss='mse')
 print(model.summary())
 
-สรุป
 
-เอกสารนี้ให้ข้อมูลพื้นฐานเกี่ยวกับ Ubuntu, GitHub, Miniconda, Web Page, Web Application, Web Service และ Deep Learning พร้อมตัวอย่างโค้ดเพื่อเริ่มต้นใช้งาน
