@@ -44,10 +44,11 @@ git push origin main
 Miniconda เป็นเวอร์ชันที่เล็กกว่าของ Anaconda ที่ช่วยจัดการสภาพแวดล้อม Python
 
 🔧 การติดตั้ง Miniconda
-
+```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
 
+bash Miniconda3-latest-Linux-x86_64.sh
+```
 🏗️ การสร้างและใช้งาน environment
 ```bash
 conda create -n myenv python=3.9 -y
@@ -78,7 +79,7 @@ Web Application เป็นแอปพลิเคชันที่ทำง�
 pip install flask
 ```
 🚀 ตัวอย่าง Flask App
-
+```bash
 from flask import Flask
 
 app = Flask(__name__)
@@ -89,13 +90,13 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
+```
 6. Web Service ⚡
 
 Web Service เป็น API ที่ให้บริการข้อมูลผ่าน HTTP
 
 📡 ตัวอย่าง Flask API
-
+```bash
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -106,13 +107,25 @@ def get_data():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
+```
 7. Deep Learning 🧠
 
 Deep Learning เป็นเทคนิคของ Machine Learning ที่ใช้ Neural Networks
 
 📥 การติดตั้ง TensorFlow
-
+```bash
 pip install tensorflow
-
+```
 📊 ตัวอย่างโมเดล Deep Learning
+```bash
+import tensorflow as tf
+from tensorflow import keras
+
+model = keras.Sequential([
+    keras.layers.Dense(64, activation='relu', input_shape=(10,)),
+    keras.layers.Dense(1)
+])
+
+model.compile(optimizer='adam', loss='mse')
+print(model.summary())
+```
