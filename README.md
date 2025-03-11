@@ -5,6 +5,7 @@ AI Prototyping 2024 Parames Siripathanon
 Ubuntu เป็นระบบปฏิบัติการที่ใช้ Linux Kernel และเป็นที่นิยมในการพัฒนาและใช้งานเซิร์ฟเวอร์
 
 การติดตั้งแพ็คเกจพื้นฐาน
+
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y build-essential curl git
 
