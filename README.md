@@ -24,13 +24,17 @@ GitHub เป็นแพลตฟอร์มสำหรับการจั�
 ⚙️ การตั้งค่า Git และเชื่อมต่อกับ GitHub
 
 git config --global user.name "Your Name"
+
 git config --global user.email "your.email@example.com"
+
 git clone https://github.com/username/repository.git
 
 🔄 การอัปโหลดโค้ดไปยัง GitHub
 
 git add .
+
 git commit -m "Initial commit"
+
 git push origin main
 
 3. Miniconda 🐍
