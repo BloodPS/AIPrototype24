@@ -7,6 +7,7 @@ Ubuntu เป็นระบบปฏิบัติการที่ใช้ 
 การติดตั้งแพ็คเกจพื้นฐาน
 
 sudo apt update && sudo apt upgrade -y
+
 sudo apt install -y build-essential curl git
 
 ตรวจสอบเวอร์ชันของ Ubuntu
