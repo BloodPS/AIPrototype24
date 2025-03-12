@@ -1,7 +1,7 @@
 WebPage >> https://bloodps.github.io/WebPage-Auto-Insurance/
 ![image](https://github.com/user-attachments/assets/c337740e-1f04-47b1-808e-7837ae43116c)
 
-1. Ubuntu 📁
+## 1. Ubuntu 📁
 
 Ubuntu คือระบบปฏิบัติการที่ใช้พื้นฐานจาก Linux
 
@@ -22,7 +22,7 @@ rm <file_name>  # ลบไฟล์
 ```bash
 lsb_release -a
 ```
-2. GitHub 🚀
+## 2. GitHub 🚀
 
 GitHub เป็นแพลตฟอร์มสำหรับการจัดการโค้ดและการทำงานร่วมกันผ่าน Git
 
@@ -42,7 +42,7 @@ git commit -m "Initial commit"
 
 git push origin main
 ```
-3. Miniconda 🐍
+## 3. Miniconda 🐍
 
 Miniconda เป็นเวอร์ชันที่เล็กกว่าของ Anaconda ที่ช่วยจัดการสภาพแวดล้อม Python
 
@@ -57,7 +57,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 conda create -n myenv python=3.9 -y
 conda activate myenv
 ```
-4. Web Page 🌍
+## 4. Web Page 🌍
 
 Web Page เป็นหน้าเว็บที่สามารถสร้างได้ด้วย HTML, CSS และ JavaScript
 
@@ -73,7 +73,7 @@ Web Page เป็นหน้าเว็บที่สามารถสร�
 </body>
 </html>
 ```
-5. Web Application 🖥️
+## 5. Web Application 🖥️
 
 Web Application เป็นแอปพลิเคชันที่ทำงานบนเว็บ โดยใช้ Flask
 
@@ -94,7 +94,7 @@ def home():
 if __name__ == '__main__':
     app.run(debug=True)
 ```
-6. Web Service ⚡
+## 6. Web Service ⚡
 
 Web Service เป็น API ที่ให้บริการข้อมูลผ่าน HTTP
 
@@ -111,7 +111,7 @@ def get_data():
 if __name__ == '__main__':
     app.run(debug=True)
 ```
-7. Deep Learning 🧠
+## 7. Deep Learning 🧠
 
 Deep Learning เป็นเทคนิคของ Machine Learning ที่ใช้ Neural Networks
 
